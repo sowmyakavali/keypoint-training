@@ -8,5 +8,5 @@ def default_convertion(input_model):
     print("Default convertion Done....✌")
 
 if __name__=="__main__":
-    input_model = r"D:\ML-projects\tryon-training\eyewearData\FinalDataset_96x96\eyewear_32b_96s_6kps_2023-08-29MobileNet0.99.h5"
+    input_model = r"ew_32b_96s_6kps_2023-08-29MobileNet0.99.h5"
     default_convertion(input_model)
