@@ -5,7 +5,7 @@ import cv2
 import time
 import numpy as np 
 
-model_path=r'D:\ML-projects\tryon-training\eyewearData\FinalDataset_96x96\eyewear_32b_96s_6kps_2023-08-29MobileNet0.63_default.tflite'
+model_path=r'D:\FinalDataset_96x96\MobileNet0.63_default.tflite'
 
 
 interpreter = tf.lite.Interpreter(model_path=model_path)
@@ -46,6 +46,6 @@ if os.path.isdir(inputsource):
             kps.append((int(X), int(Y)))
 
         # save image
-        cv2.imwrite(os.path.join(r"D:\ML-projects\tryon-training\eyewearData\testresults", filename), rimage)
+        cv2.imwrite(os.path.join(r"D:\testresults", filename), rimage)
         cv2.imshow("test", rimage)
         cv2.waitKey(10)
