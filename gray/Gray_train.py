@@ -177,8 +177,8 @@ if __name__=="__main__":
     noOfepochs = 1000
     noOfkeypoints = 9
     #input data path
-    data_path = r"d:\Shoe_Tryon\kps-datafilter\Datasets\Datasets1to8\FinalDataset_98x98\grayFinalData.csv"
-    mainpath = r"d:\Shoe_Tryon\kps-datafilter\Datasets\Datasets1to8\FinalDataset_98x98"
+    data_path = r"FinalDataset_98x98\grayFinalData.csv"
+    mainpath = r"FinalDataset_98x98"
     weights = "EfficientNetV2S"
 
     time = str(datetime.now()).split(" ")[0]
