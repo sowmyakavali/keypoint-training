@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     # Load models
     t1 = time.time()
-    keypoint_model = r"c:\Users\user\Downloads\shoes_heatmap.tflite"
+    keypoint_model = r"c:\Users\user\Downloads\heatmap.tflite"
 
     detection_Interpreter, load_delegate = tf.lite.Interpreter, tf.lite.experimental.load_delegate
 
