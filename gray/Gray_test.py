@@ -4,13 +4,13 @@ import glob
 import numpy as np 
 from tensorflow.keras.models import  load_model
 
-modelpath = r"D:\Hand\KPV8_19042023\FullHand_model.h5"
+modelpath = r"model.h5"
 model = load_model(modelpath)
 print("model loaded Successfully", model)
 
 size = 96
 
-inputsource = 1 #r"D:\Hand\test"
+inputsource = 1 #
 if os.path.isdir(inputsource):
     images = glob.glob(os.path.join(inputsource, "*"))
 
