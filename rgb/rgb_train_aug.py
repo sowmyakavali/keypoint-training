@@ -133,7 +133,7 @@ class training():
 
 
 if __name__=="__main__":
-    mainpath = r"D:\Shoe_Tryon\kps-datafilter\Datasets\Datasets1to8\FinalDataset_98x98"
+    mainpath = r"D:\Datasets\Datasets1to8\FinalDataset_98x98"
     datapath = os.path.join(mainpath, "RGBFinalData.csv")
     imagesPath = os.path.join(mainpath, "RGB_Images")
     csvData = pd.read_csv(datapath)
