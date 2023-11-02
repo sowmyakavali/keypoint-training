@@ -436,4 +436,4 @@ if __name__ == "__main__":
     # score = model.evaluate( X_val, y_val)[1]
     # print("Final Score  : ", score)
 
-    model.save(r"D:\Hand\Heatmap\fullImage_wistkp_model_19042023.h5")
+    model.save(r"fullImage_kp_model_19042023.h5")
