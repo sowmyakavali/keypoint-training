@@ -4,7 +4,7 @@ import glob
 import numpy as np 
 from tensorflow.keras.models import load_model
 
-modelpath = r"D:\ML-projects\tryon-training\eyewearData\FinalDataset_224x224\eyewear_16b_224s_6kps.h5"
+modelpath = r"D:\FinalDataset_224x224\ew_16b_224s_6kps.h5"
 model = load_model(modelpath)
 print("model loaded Successfully", model)
 
